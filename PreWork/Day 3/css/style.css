@@ -1,0 +1,85 @@
+ body{
+    background-color: rgb(14, 114, 42);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .headers{
+    color: aliceblue;
+  }
+  #paraLead{
+    font-size: larger;
+  }
+  #divTable{
+    background-color: rgb(14, 114, 42);
+  }
+  #divPortal{
+    background-color: rgb(14, 114, 42);
+  }
+  #divForm{
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+  }
+  #divButton{
+    border-radius: 0px;
+    width: fit-content;
+    margin: auto;
+    background-color: aliceblue;
+  }
+  h2{
+    text-align: center;
+    text-decoration: underline;
+  }
+  h3{
+    text-align: center;
+    text-decoration: underline;
+  }
+  p{
+    font-size: medium;
+    text-align: center;
+    color: aliceblue;
+  }
+  ul{
+    font-style: italic;
+    color: aliceblue;
+    text-align: center;
+    list-style-position: inside;
+  }
+  table{
+    margin: auto;
+  }
+  form{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-style: italic;
+    width: fit-content;
+    margin: auto;
+  }
+  nav a {
+    width:20px; 
+    border:rgb(6, 60, 65); 
+    border-style:solid; 
+    margin: 10px; 
+    padding: 10px; 
+    border-radius:20px; 
+    background-color:rgb(6, 6, 65);
+    text-decoration: none;
+    color: aliceblue;
+ }
+ input[type=text]:focus{
+  background-color: black;
+  color: aliceblue;
+ }
+ input[type=text]:hover{
+  background-color: black;
+  color: aliceblue;
+  transition: 2s;
+ }
+ input[type=button]:active{
+  background-color: rgb(14, 114, 42);
+ }
+ div{
+  background-color: rgb(6, 6, 65);
+  border-radius: 20px;
+  padding: 5px;
+ }
